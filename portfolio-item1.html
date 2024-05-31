@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tebogo Mosiane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500
+        ;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">         
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                TM.
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Task Management Application
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Agile Task Management Application</p>
+            <img src="img/Agile App.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>A task management application which allows users to organise their tasks efficiently.
+                Tasks are organised into different boards and further categorised into three different statutes which are
+                'todo', 'doing' and 'done'.</p>
+            <img src="img/portfolio-details.jpg" alt="">
+            <p>The application allows users to add a task, update task information and delete a task.
+                The tasks are displayed on to the user interface and stored on local storage.
+                Users can also toggle between a light and dark mode theme. A user can also toggle the appearance 
+                of a navigation sidebar.
+            </p>            
+            <div style="display:flex; justify-content: center; gap:15px">
+                <a href="https://github.com/MosianeTS/TEBMOS452_WFO2401_GROUPA_TEBOGOMOSIANE_JSL11" target="_blank" style="background-color: aqua;padding:12px 20px; border-radius: 5px;text-decoration: none;">Github</a>
+                <a href= "https://agile-task-app.netlify.app/" target="_blank" style="background-color: aqua;padding:12px 30px; border-radius: 5px;text-decoration: none;">Live Site</a>
+            </div>
+        </div>
+        
+        
+        
+         <!-- Footer -->
+         <footer class="footer">          
+            <a href="mailto:mosianets@gmail.com.dev" class="footer__link">mosianets@gmail.com</a>
+            <p>079 816 1473</p>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/MosianeTS" target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>              
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/real_jogaB" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/MosianeTS" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

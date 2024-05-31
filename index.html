@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tebogo Mosiane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500
+        ;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;
+        0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">     
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                TM.
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am Tebogo Mosiane
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Entry level software developer</p>
+            <img src="img/Tebogo-dev.jpg" alt="A picture of Tebogo Mosiane" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Website development</h3>
+                    <p>Development of visually appealing, responsive and user-friendly websites.
+                         Using modern web technologies such as HTML5, CSS3, and JavaScript, I create seamless 
+                         and intuitive browsing experiences that leave a lasting impression.</p>
+                </div>                 
+                <div class="service">
+                    <h3>Web application development</h3>
+                    <p>Development of interactive and dynamic web applications with great functionality and user interaction.</p>
+                </div>          
+              
+            </div>             
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About Me</h2>
+           <p class="section__subtitle section__subtitle--about">Developer based in Rustenburg, South Africa</p>
+           
+           <div class="about-me__body">
+               <p>Having started my professional career as a mechanical engineer, I made a decision to switch 
+                careers due to my newly found passion for coding. I am looking to establish a solid and successful 
+                career as a software developer.
+               </p>
+               <p>As a current software development bootcamp student, I have gained proficiency in HTML5, CSS3, 
+                Tailwind CSS and JavaScript through the successful completion of comprehensive challenges and projects.
+                I have worked and continue to work with Git and Github as a means of version control and are well-versed 
+                in its usage. In terms of programming languages, I have great knowledge of Python and Java and have basic 
+                to intermediate coding capabilities in the languages.
+                   
+               </p>
+                <p> 
+                 I value continuous learning and growth to expand my knowledge and skillset and as such, I am currently
+                 learning React.js and Express.js. I enjoy solving problems through the use of efficient code.
+                </p>
+           </div>
+           
+           <img src="img/Tebogo.jpg" alt="Tebogo smiling" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->   
+                <div class="portfolio__item">
+                    <div class="portfolio-item-img-div">
+                        <img src="img/Agile App.png" alt="" class="portfolio__img">
+                    </div>  
+                    <div class="portfolio-item-text-div"  style="display: flex; flex-direction: column; justify-content: space-between;min-width:150px">
+                        <div >
+                            <h3 style="text-align: right;margin-right:15px;margin-top:10px;display:block;color:black;">Agile Task Board Application</h3>
+                        </div>
+                        <div>
+                            <a href="portfolio-item1.html" style="text-decoration: none;" >Read more here</a>
+                        </div>                  
+                
+                    </div>                                    
+                    
+                </div>                  
+                
+                <!-- Portfolio item 02 -->
+                <div class="portfolio__item">                    
+                    <div class="portfolio-item-img-div">
+                        <img src="img/Dev Pic.png" alt="" class="portfolio__img">
+                    </div>
+                    <div class="portfolio-item-text-div"  style="display: flex; flex-direction: column; justify-content: space-between;min-width:150px">
+                        <div>
+                            <h3 style="text-align:right;margin-right:15px;margin-top:10px;display: block;color:black;">Development Portfolio Site</h3>
+                        </div>
+                        <div>
+                            <a href="portfolio-item2.html" style="text-decoration: none;align-self: center;">Read more here</a>
+                        </div>
+                        
+                        
+                    </div>       
+                 
+                </div>     
+
+                   <!-- Portfolio item 03 -->
+                   <div class="portfolio__item">
+                    <div class="portfolio-item-img-div">
+                        <img src="img/Tutor Pic.png" alt="" class="portfolio__img">
+                    </div>  
+                    <div class="portfolio-item-text-div"  style="display: flex; flex-direction: column; justify-content: space-between;min-width:150px">
+                        <div >
+                            <h3 style="text-align: right;margin-right:15px;margin-top:10px;display:block;color:black;">Tutoring Profile Site</h3>
+                        </div>
+                        <div>
+                            <a href="portfolio-item3.html" style="text-decoration: none;" >Read more here</a>
+                        </div>                  
+                
+                    </div>                                    
+                    
+                </div>
+                  <!-- Portfolio item 04 -->
+                  <div class="portfolio__item">
+                    <div class="portfolio-item-img-div">
+                        <img src="img/Dashboard.png" alt="" class="portfolio__img">
+                    </div>                            
+                    <div class="portfolio-item-text-div" style="display: flex; flex-direction: column; justify-content: space-between;min-width:150px">
+                        <div>
+                            <h3 style="text-align: right;margin-right:15px;margin-top:10px;display: block;color:black;">Chrome dashboard extension</h3>
+                        </div>
+                        <div>
+                            <a href="portfolio-item4.html" style="text-decoration: none;">Read more here</a>
+                        </div>   
+                        
+                    </div>
+                   
+                </div>    
+                
+                  <!-- Portfolio item 05 -->
+                  <div class="portfolio__item">
+                    <div class="portfolio-item-img-div">
+                        <img src="img/Cache Pic.png" alt="" class="portfolio__img">
+                    </div>                            
+                    <div class="portfolio-item-text-div" style="display: flex; flex-direction: column; justify-content: space-between;min-width:150px">
+                        <div>
+                            <h3 style="text-align: right;margin-right:15px;margin-top:10px;display: block;color:black;">Bank Landing Page</h3>
+                        </div>
+                        <div>
+                            <a href="portfolio-item5.html" style="text-decoration: none;">Read more here</a>
+                        </div>   
+                        
+                    </div>
+                   
+                </div> 
+                
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+         <section class="contact">                          
+            <div class="contact__section--main-div">           
+                <div class="contact-div">
+                    <h2 style="text-align: center;">Contact Me</h2>
+                    <p style="text-align: center; font-size:1.2rem;">If you would like
+                         to chat about a potential job opening or a project, please fill 
+                         in the form below.
+                    </p>
+                    <form id="form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="a66dad43-8817-43e5-8cc5-50776bfc612b">
+                        <div>
+                            <label for="name">Name</label><br>
+                            <input type="text" id="name" name="name" required autocomplete="off"><br>
+                        </div>
+                        <div>
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="email" required><br>
+                        </div>
+                        <div>
+                            <label for="name">Subject</label><br>
+                            <input type="text" id="name" name="subject" required><br>
+                        </div>
+                        <div>
+                            <label for="message">Message</label><br>
+                            <textarea id="message" name="message" rows="10" cols="40" required></textarea><br>
+                        </div>            
+                        <div class="h-captcha" data-captcha="true"></div>                  
+                        <button id="submit-button" type="submit">Submit</button>
+                    </form>
+                    <script src="https://web3forms.com/client/script.js" async defer></script>
+                </div>
+                <div class="contact-details">
+                    <div>
+                        <p class="email">mosianets@gmail.com</p>
+                        <p class="phone-number">079 816 1473</p>
+                    </div>
+                    <div style="position:relative;left:-1.8rem; top:-1rem; font-size:1.7rem">
+                        <ul class="social-list">
+                            <li class="social-list__item">
+                                <a class="social-list__link" href="https://codepen.io/MosianeTS" target="_blank">
+                                    <i class="fab fa-codepen"></i>
+                                </a>
+                            </li>              
+                            <li class="social-list__item">
+                                <a class="social-list__link" href="https://twitter.com/real_jogaB" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-list__item">
+                                <a class="social-list__link" href="https://github.com/MosianeTS" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>  
+         
+        
+       <br><br>
+             
+        
+        <!-- Footer -->
+        <footer class="footer">           
+            &copy; 2024. Tebogo Mosiane. All rights reserved.
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
